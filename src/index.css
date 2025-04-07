@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .menu-item{
+        @apply  relative after:content-[""]  after:absolute after:w-full after:h-[3px] after:bottom-[-8px] after:left-[-8px] after:bg-blue-500 after:opacity-0 hover:after:opacity-100 hover:after:left-[0px] after:transition-all
+    }
+    .span1 {
+        @apply bg-[#1e40af4d] inline-block px-[20px] py-[7px] text-[13px] rounded-md
+    }
+}
+
+.active{
+    background-color: #172554;
+}
+html{
+    scroll-behavior: smooth;
+}
+.slick-dots li button:before{
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+}
+.slick-next{
+    right: -18px;
+}
+.slick-prev{
+    left: -18px;
+}
+body ,html{
+    overflow-x: hidden;
+}
