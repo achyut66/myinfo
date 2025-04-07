@@ -5,7 +5,7 @@ import { FaIdCardAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { PROFILE_DATA } from "../util/data";
 import profilepic from "../assets/aboutpic.jpeg";
-import Resume from "../assets/MERN-intern-resume.pdf";
+import Resume from "../assets/UpdatedRealCV.pdf";
 
 const herosection = () => {
   let { name, tagline, jobTitle, yearsOfExperience, location, email, skills } =
