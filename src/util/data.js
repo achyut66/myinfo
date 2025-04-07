@@ -12,8 +12,8 @@ import { GiSkills } from "react-icons/gi";
 export const PROFILE_DATA = {
     name: "Achyut Neupane",
     tagline: `A full-stack MERN, Web developer passionate about building engaging web applications and solving complex problems with code`,
-    jobTitle: "MERN Stack Developer",
-    location: "India",
+    jobTitle: "Full Stack Developer",
+    location: "Nepal",
     yearsOfExperience: "6 month of internship in MERN stack",
     skills: [
         "React.js",
@@ -29,9 +29,9 @@ export const PROFILE_DATA = {
         "Express",
         "MongoDB"
     ],
-    email: "shubuchoudhary1500@gmail.com",
-    phone: "+91 82196-44580",
-    website: "Not available yet",
+    email: "green.band66@gmail.com",
+    phone: "+977-9861023479",
+    website: "https://achyutneupane.netlify.app",
 };
 
 export const SKILLS = [
@@ -39,28 +39,28 @@ export const SKILLS = [
         title: "Frontend",
         icon : FaReact,
         skills: [
-            { skill: "HTML" , persentage : '80%'},
+            { skill: "HTML" , persentage : '90%'},
             { skill: "CSS" , persentage : '90%' },
             { skill: "JavaScript" , persentage : '85%' },
-            { skill: "React" , persentage : '70%' }
+            { skill: "React" , persentage : '90%' }
         ]
     },
     {
         title: "Backend",
         icon : FaNodeJs,
         skills: [
-            { skill: "Node.js" , persentage : '70%'},
-            { skill: "Express.js" , persentage : '65%' },
-            { skill: "Mongodb" , persentage : '70%' },
+            { skill: "Node.js" , persentage : '60%'},
+            { skill: "Express.js" , persentage : '50%' },
+            { skill: "Mongodb" , persentage : '80%' },
         ]
     },
     {
         title: "Tools",
         icon :FaTools,
         skills: [
-            { skill: "Visual Studio Code" , persentage : '75%'},
-            { skill: "Git & Github" , persentage : '83%' },
-            { skill: "Postman" , persentage : '50%%' },
+            { skill: "Visual Studio Code" , persentage : '90%'},
+            { skill: "Git & Github" , persentage : '85%' },
+            { skill: "Postman" , persentage : '50%' },
         ]
     },
     {
@@ -68,8 +68,8 @@ export const SKILLS = [
         icon : GiSkills ,
         skills: [
             { skill: "Problem-Solving" , persentage : '80%'},
-            { skill: "Collaboration" , persentage : '85%' },
-            { skill: "Attention to Detail" , persentage : '75%' }
+            { skill: "Collaboration" , persentage : '90%' },
+            { skill: "Attention to Detail" , persentage : '80%' }
         ]
     },
 ]
@@ -132,24 +132,24 @@ export const SKILLS = [
 export const Work_Experience = [
     {
         id: "01",
-        company: "Infosys",
-        position: "Frontend Web Developer",
-        duration: "2016 - 2018",
-        description: "Developed responsive and interactive user interfaces for client projects using modern web technologies",
+        company: "Business Management Services",
+        position: "Web Developer",
+        duration: "2019 - 2024",
+        description: "Developed and maintained web applications using HTML, CSS, JavaScript, and React.js. Collaborated with cross-functional teams to deliver high-quality software solutions.",
     },
     {
         id: "01",
-        company: "Infosys",
-        position: "Frontend Web Developer",
-        duration: "2016 - 2018",
-        description: "Developed responsive and interactive user interfaces for client projects using modern web technologies",
+        company: "Nimbus Infosys",
+        position: "System Support Engineer",
+        duration: "2018 - 2019",
+        description: "Support on development, finding issues and system installation and configuration and report to the team from on site. ",
     }
 ]
 
 export const ABOUT_ME_DATA = {
-    introduction: "Hi, I'm Shubham, A self-tought MERN Stack Developer BCA student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
-    background: "I hold a Bachelor's degree in Computer Application from Himachal Pradesh University, Shimla. ",
-    interests: "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing chess. I'm also an avid reader.",
+    introduction: "Hi, I'm Achyut Neupane, A self-tought Laravel(php) Developer BIM student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
+    background: "I hold a Bachelor's degree in Informtion Management from National College Of Computer studies, Kathmandu. ",
+    interests: "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing indoor games.",
     careerGoals: "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives",
     stats: {
         yearsOfExperience: "0",
@@ -160,7 +160,7 @@ export const ABOUT_ME_DATA = {
 
 export const Projects = [
     {
-        title: "LiveChatApp - Real-Time Chat Application (MERN + Socket.io)",
+        title: "Ecommerce Business Website (Laravel Inertia + React + Mysql)",
         description: "LiveChatApp is a real-time one-on-one messaging application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io.",
         GithubLink: "https://github.com/itzshubu/LiveChatApp",
         LiveServerLink: "https://chat-app-deploye.onrender.com"
