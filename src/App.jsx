@@ -5,7 +5,7 @@ import SKILLS from "./Components/skills/skills";
 import AboutMe from "./Components/Aboutme";
 import Projects from "./Components/Projects/Projects";
 import Headroom from "react-headroom";
-import Contect from "./Components/Contect";
+import Contact from "./Components/Contect";
 import Footer from "./Components/Footer";
 import "./App.css";
 import AOS from "aos";
@@ -34,7 +34,7 @@ function App() {
           <AboutMe />
           <SKILLS />
           <Projects />
-          <Contect />
+          <Contact />
         </div>
         <Footer />
       </div>
