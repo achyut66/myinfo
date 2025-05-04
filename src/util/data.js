@@ -9,12 +9,19 @@ import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
 import { GiSkills } from "react-icons/gi";
 
+import holytune from "../assets/projects/holytune.jpg";
+import travel from "../assets/projects/tms.jpg";
+import nomad from "../assets/projects/nomad.jpg";
+import plan from "../assets/projects/plan.jpg";
+import chat from "../assets/projects/chat.jpg";
+import dummyy from "../assets/projects/dummy.jpg";
+
 export const PROFILE_DATA = {
     name: "Achyut Neupane",
     tagline: `A full-stack MERN, Web developer passionate about building engaging web applications and solving complex problems with code`,
     jobTitle: "Full Stack Developer",
     location: "Nepal",
-    yearsOfExperience: "3 years of experince in backend development (PHP)",
+    yearsOfExperience: "3 years of experience in backend development (PHP) & 2 years in React",
     skills: [
         "Php (Codeigniter/Laravel)",
         "MySql",
@@ -197,48 +204,56 @@ export const Projects = [
         title: "E-Commerce Website",
         description: "This full-stack e-commerce platform is built using the React and Php-Laravel (React.js, Laravel,Vite,SSR).",
         GithubLink: "https://github.com/achyut66/holytune_craft",
-        LiveServerLink: "https://holytunecraft.com/"
+        LiveServerLink: "https://holytunecraft.com/",
+        dashImage:holytune
     },
     {
         title: "Travel Booking Management System",
         description: "A Client Management System build in React + Node (Express Server) to manage and handles all the tasks and finalize with dynamic search facilitate reports. (React.js,Node.js,MongoDB,Vite)",
         GithubLink: "https://github.com/achyut66/travelcms",
-        LiveServerLink: "https://travelcms.netlify.app/"
+        LiveServerLink: "https://travelcms.netlify.app/",
+        dashImage:travel
     },
     {
         title: "Live Chat System",
         description: "Build In Php Core for my internship program which can manage creation of users lists and can have chat live and also manage to create groups.",
         GithubLink: "https://github.com/achyut66/chatSys",
-        LiveServerLink: "https://livechat.netlify.app/"
+        LiveServerLink: "https://livechat.netlify.app/",
+        dashImage:chat
     },
     {
         title: "Travel & Tours Website",
         description: "This website build to listing the product or packages that company offers to their customers and also can place a order or book the package simply using email. (Php-Codeigniter,MySql)",
         GithubLink: "https://github.com/achyut66/nomad",
-        LiveServerLink: "https://himalayanomad.com/"
+        LiveServerLink: "https://himalayanomad.com/",
+        dashImage:nomad
     },
     {
         title: "Planning & Program Management System",
         description: "A system that handles the local governments fiscal years planning and commission management for the whole year (Php, MySql)",
         GithubLink: "https://github.com/achyut66/yojana-karyakram",
-        LiveServerLink: "https://plan.annapurnamunmyagdi.gov.np/"
+        LiveServerLink: "https://plan.annapurnamunmyagdi.gov.np/",
+        dashImage:plan
     },
     {
         title: "Daily Tasks Management System",
         description: "Day to day tasks related to customer based inquiries in local governments. (Php, MySql,Bootstrap)",
         GithubLink: "https://github.com/bmssoftware/dhunibeshi-e-sifaris",
-        LiveServerLink: "https://sifaris.jwalamukhimun.gov.np/login"
+        LiveServerLink: "https://sifaris.jwalamukhimun.gov.np/login",
+        dashImage:dummyy
     },
     {
         title: "Irrigation Management System",
         description: "System that tracks the amount of quantity should assign to how much of land for irrigation.(Php,Mysql,Bootstrap)",
         GithubLink: "https://github.com/FromWorkProjects/Sinchai",
-        LiveServerLink: "https://irrigation.netlify.app/"
+        LiveServerLink: "https://irrigation.netlify.app/",
+        dashImage:dummyy
     },
     {
         title: "School Management System",
         description: "Handles and keeps records of students,teachers and other staffs and also keep inventory record.(Php, Bootsrap, Mysql)",
         GithubLink: "https://github.com/bmssoftware/schoolmgmt",
-        LiveServerLink: "https://school.netlify.app/"
+        LiveServerLink: "https://school.netlify.app/",
+        dashImage:dummyy
     },
 ]

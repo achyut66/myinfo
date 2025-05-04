@@ -33,7 +33,7 @@ const Contect = () => {
         </div>
         <div>
           <form
-            action="https://formsubmit.co/shubchoudhary1500@gmail.com"
+            action="https://formsubmit.co/green.band66@gmail.com"
             method={"POST"}
           >
             <div>
