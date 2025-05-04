@@ -14,9 +14,12 @@ export const PROFILE_DATA = {
     tagline: `A full-stack MERN, Web developer passionate about building engaging web applications and solving complex problems with code`,
     jobTitle: "Full Stack Developer",
     location: "Nepal",
-    yearsOfExperience: "6 month of internship in MERN stack",
+    yearsOfExperience: "3 years of experince in backend development (PHP)",
     skills: [
+        "Php (Codeigniter/Laravel)",
+        "MySql",
         "React.js",
+        "Vue.js",
         "JavaScript",
         "HTML5",
         "CSS3",
@@ -24,14 +27,15 @@ export const PROFILE_DATA = {
         "GitHub",
         "Bootstrap",
         "TailwindCSS",
-        "Redux",
         "NodeJs",
         "Express",
-        "MongoDB"
+        "MongoDB",
+        "Linux",
+        "MariaDB"
     ],
     email: "green.band66@gmail.com",
     phone: "+977-9861023479",
-    website: "https://achyutneupane.netlify.app",
+    website: "https://achutneupane.com.np",
 };
 
 export const SKILLS = [
@@ -40,9 +44,11 @@ export const SKILLS = [
         icon : FaReact,
         skills: [
             { skill: "HTML" , persentage : '90%'},
-            { skill: "CSS" , persentage : '90%' },
-            { skill: "JavaScript" , persentage : '85%' },
-            { skill: "React" , persentage : '90%' }
+            { skill: "CSS" , persentage : '80%' },
+            { skill: "JavaScript" , persentage : '75%' },
+            { skill: "React" , persentage : '76%' },
+            { skill: "Bootstrap" , persentage : '76%' },
+            { skill: "Vue" , persentage : '60%' },
         ]
     },
     {
@@ -52,6 +58,7 @@ export const SKILLS = [
             { skill: "Node.js" , persentage : '60%'},
             { skill: "Express.js" , persentage : '50%' },
             { skill: "Mongodb" , persentage : '80%' },
+            { skill: "Php" , persentage : '85%' },
         ]
     },
     {
@@ -61,6 +68,14 @@ export const SKILLS = [
             { skill: "Visual Studio Code" , persentage : '90%'},
             { skill: "Git & Github" , persentage : '85%' },
             { skill: "Postman" , persentage : '50%' },
+            { skill: "Docker" , persentage : '60%' },
+            { skill: "MongoDB" , persentage : '70%' },
+            { skill: "Npm/Yarn" , persentage : '72%' },
+            { skill: "Composer (PHP)" , persentage : '80%' },
+            { skill: "Netlify" , persentage : '70%' },
+            { skill: "AWS" , persentage : '50%' },
+            { skill: "Figma" , persentage : '40%' },
+            { skill: "Vite" , persentage : '60%' }
         ]
     },
     {
@@ -68,8 +83,12 @@ export const SKILLS = [
         icon : GiSkills ,
         skills: [
             { skill: "Problem-Solving" , persentage : '80%'},
-            { skill: "Collaboration" , persentage : '90%' },
-            { skill: "Attention to Detail" , persentage : '80%' }
+            { skill: "Teamwork & Collaboration" , persentage : '90%' },
+            { skill: "Attention to Detail" , persentage : '80%' },
+            { skill: "Patience & Persistence" , persentage : '80%' },
+            { skill: "Time Management" , persentage : '80%' },
+            { skill: "Continuous Learning" , persentage : '80%' },
+            { skill: "Giving & Receiving Feedback" , persentage : '90%' }
         ]
     },
 ]
@@ -132,121 +151,94 @@ export const SKILLS = [
 export const Work_Experience = [
     {
         id: "01",
-        company: "Business Management Services",
-        position: "Web Developer",
-        duration: "2019 - 2024",
-        description: "Developed and maintained web applications using HTML, CSS, JavaScript, and React.js. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        company: "RBS (Rastriya Beemma Sansthan)",
+        position: "Server Management",
+        duration: "2017 - 2017",
+        description: "Worked As An Intern In Server Handling and Reporting ",
     },
     {
-        id: "01",
+        id:"02",
         company: "Nimbus Infosys",
         position: "System Support Engineer",
         duration: "2018 - 2019",
         description: "Support on development, finding issues and system installation and configuration and report to the team from on site. ",
-    }
+    },
+    {
+        id: "03",
+        company: "Business Management Services",
+        position: "Web Developer",
+        duration: "2020 - 2024",
+        description: "Developed and maintained web applications using HTML, CSS, Php, JavaScript, React.js ,Vue.js, Node(Express). Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    },
+    {
+        id: "04",
+        company: "Outsourcing",
+        position: "Website Developer",
+        duration: "2025 - Till",
+        description: "E-commerce Fully Function Site for dropshipping business called Holytunecraft in nepal & developing the 'Travel Booking Management System' for global market targeting Nepal.",
+    },
 ]
 
 export const ABOUT_ME_DATA = {
-    introduction: "Hi, I'm Achyut Neupane, A self-tought Laravel(php) Developer BIM student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
+    introduction: "Hi, I'm Achyut Neupane, A self-tought React (Node-Express), Developer BIM student looking for an opportunity in Web Development. Who is committed to study web development. Mindset to fullfill the life with wonderful memories and knowledge.",
     background: "I hold a Bachelor's degree in Informtion Management from National College Of Computer studies, Kathmandu. ",
     interests: "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing indoor games.",
     careerGoals: "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives",
     stats: {
-        yearsOfExperience: "0",
-        numberOfProjects: 0,
-        certificationsEarned: 0,
+        yearsOfExperience: "4",
+        numberOfProjects: 8,
+        certificationsEarned: 4,
     },
 }
 
 export const Projects = [
+    
     {
-        title: "Ecommerce Business Website (Laravel Inertia + React + Mysql)",
-        description: "LiveChatApp is a real-time one-on-one messaging application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.io.",
-        GithubLink: "https://github.com/itzshubu/LiveChatApp",
-        LiveServerLink: "https://chat-app-deploye.onrender.com"
+        title: "E-Commerce Website",
+        description: "This full-stack e-commerce platform is built using the React and Php-Laravel (React.js, Laravel,Vite,SSR).",
+        GithubLink: "https://github.com/achyut66/holytune_craft",
+        LiveServerLink: "https://holytunecraft.com/"
     },
     {
-        title: "E-Commerce Website (MERN Stack)",
-        description: "This full-stack e-commerce platform is built using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
-        GithubLink: "https://github.com/itzshubu/full-stack-ecommerce-MERN",
-        LiveServerLink: "https://fullstack-ecom-mern.netlify.app/"
+        title: "Travel Booking Management System",
+        description: "A Client Management System build in React + Node (Express Server) to manage and handles all the tasks and finalize with dynamic search facilitate reports. (React.js,Node.js,MongoDB,Vite)",
+        GithubLink: "https://github.com/achyut66/travelcms",
+        LiveServerLink: "https://travelcms.netlify.app/"
     },
     {
-        title: "download BCA question papers",
-        description: "A website providing BCA question papers, notes, and study materials with an easy interface. Clone and open index.html",
-        GithubLink: "https://github.com/itzshubu/Bca-question-paper-download-website",
-        LiveServerLink: "https://downloadbcaquestionpaper.netlify.app/"
+        title: "Live Chat System",
+        description: "Build In Php Core for my internship program which can manage creation of users lists and can have chat live and also manage to create groups.",
+        GithubLink: "https://github.com/achyut66/chatSys",
+        LiveServerLink: "https://livechat.netlify.app/"
     },
     {
-        title: "Catering Website Using Bootstrap",
-        description: "Explore our Catering Website showcasing menus, services, and event options. Discover our tailored catering solutions designed to elevate every occasion.",
-        GithubLink: "https://github.com/itzshubu/Catering-Website",
-        LiveServerLink: "https://parkashcaterer.netlify.app/"
+        title: "Travel & Tours Website",
+        description: "This website build to listing the product or packages that company offers to their customers and also can place a order or book the package simply using email. (Php-Codeigniter,MySql)",
+        GithubLink: "https://github.com/achyut66/nomad",
+        LiveServerLink: "https://himalayanomad.com/"
     },
     {
-        title: "Twitter UI Clone Using TailwindCSS",
-        description: "This repository is a responsive Twitter UI clone using TailwindCSS, replicating Twitter's design for developers to learn or build modern projects.",
-        GithubLink: "https://github.com/itzshubu/Twitter-UI-Clone-Using-TailwindCSS",
-        LiveServerLink: "https://twitter-ui-clone-using-tailwindcss.netlify.app/"
+        title: "Planning & Program Management System",
+        description: "A system that handles the local governments fiscal years planning and commission management for the whole year (Php, MySql)",
+        GithubLink: "https://github.com/achyut66/yojana-karyakram",
+        LiveServerLink: "https://plan.annapurnamunmyagdi.gov.np/"
     },
     {
-        title: "Weather App",
-        description: "A weather app built with HTML, CSS, and JavaScript. It fetches weather data from OpenWeather API using the Fetch API.",
-        GithubLink: "https://github.com/itzshubu/weather-app",
-        LiveServerLink: "https://weather-website-api-using.netlify.app/"
+        title: "Daily Tasks Management System",
+        description: "Day to day tasks related to customer based inquiries in local governments. (Php, MySql,Bootstrap)",
+        GithubLink: "https://github.com/bmssoftware/dhunibeshi-e-sifaris",
+        LiveServerLink: "https://sifaris.jwalamukhimun.gov.np/login"
     },
     {
-        title: "Search countries",
-        description: "RestCountries API fetches country data like population, capital, languages, and currencies. Ideal for developers integrating country-specific info.",
-        GithubLink: "https://github.com/itzshubu/RestCountries",
-        LiveServerLink: "https://atlas-countries.netlify.app/"
+        title: "Irrigation Management System",
+        description: "System that tracks the amount of quantity should assign to how much of land for irrigation.(Php,Mysql,Bootstrap)",
+        GithubLink: "https://github.com/FromWorkProjects/Sinchai",
+        LiveServerLink: "https://irrigation.netlify.app/"
     },
     {
-        title: "Password Generator using React",
-        description: "A React.js password generator that creates secure, random passwords. Customize length and characters with a simple, responsive interface.",
-        GithubLink: "https://github.com/itzshubu/Password-Generator-using-React.js",
-        LiveServerLink: "https://generatepasswordusingreact.netlify.app/"
-    },
-    {
-        title: "currency converter using reactjs",
-        description: "A React.js currency converter with real-time conversion, user-friendly interface, and live exchange rates fetched via a custom hook.",
-        GithubLink: "https://github.com/itzshubu/Currency-Converter-Using-React.js",
-        LiveServerLink: "https://currency-converter-using-reactjs.netlify.app/"
-    },
-    {
-        title: "Todo list using reactjs",
-        description: "Todo List app built with React and Vite. Add, edit, delete, and mark tasks complete. Great for task management and learning React.",
-        GithubLink: "https://github.com/itzshubu/TodoList-using-react",
-        LiveServerLink: "https://todolistbyreact03.netlify.app/"
-    },
-    {
-        title: "My portfolio from react.js",
-        description: "A personal portfolio website built with React.js, featuring a modern, responsive design, dynamic content, and smooth navigation to showcase projects and skills.",
-        GithubLink: "https://github.com/itzshubu/my-portfolio-react",
-        LiveServerLink: "https://shubham-portfolio-reactjs.netlify.app"
-    },
-    {
-        title: "E-commerce cart using react.js",
-        description: "E-commerce app in React using React Router, useContext, and FakeStoreAPI for product listings, detail views, and cart functionality.",
-        GithubLink: "https://github.com/itzshubu/e-commerce-using-react-with-router-useContext-fakestoreapi",
-        LiveServerLink: "https://e-commerce-usingreact-router.netlify.app/products/all"
-    },
-    {
-        title: "Insta Content Downloader using -node.js",
-        description: "Insta Download API lets developers fetch downloadable Instagram images and videos via post URLs, simplifying media integration into apps.",
-        GithubLink: "https://github.com/itzshubu/insta-download-api",
-        LiveServerLink: ""
-    },
-    {
-        title: "Registration form using node.js and mongoDB",
-        description: "This project is a simple registration form built using Node.js and Mongoose. The form collects user details and stores them in a MongoDB database.",
-        GithubLink: "https://github.com/itzshubu/registration-form-using-node.js-mongoose",
-        LiveServerLink: ""
-    },
-    {
-        title: "Backend to Frontend Handling API",
-        description: "A full-stack project showcasing backend and frontend communication with a RESTful API. Built with modern JavaScript frameworks for scalable data handling.",
-        GithubLink: "https://github.com/itzshubu/Backend-to-Frontend-Handling-API",
-        LiveServerLink: ""
+        title: "School Management System",
+        description: "Handles and keeps records of students,teachers and other staffs and also keep inventory record.(Php, Bootsrap, Mysql)",
+        GithubLink: "https://github.com/bmssoftware/schoolmgmt",
+        LiveServerLink: "https://school.netlify.app/"
     },
 ]
