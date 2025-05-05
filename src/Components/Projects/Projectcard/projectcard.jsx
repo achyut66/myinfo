@@ -13,13 +13,13 @@ const projectcard = (prop) => {
       <h3 className="text-2xl font-bold my-2">{prop.title}</h3>
       <p>{prop.description}</p>
       <div className="mt-7 md:m-7">
-        <a
+        {/* <a
           href={prop.GithubLink}
           target="_blank"
           className="hover:bg-[#1f1f38] px-5 py-3 border border-solid mx-2 rounded-md"
         >
           Github
-        </a>{" "}
+        </a>{" "} */}
         <a
           href={prop.LiveServerLink}
           target="_blank"

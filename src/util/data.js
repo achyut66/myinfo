@@ -18,8 +18,8 @@ import dummyy from "../assets/projects/dummy.jpg";
 
 export const PROFILE_DATA = {
     name: "Achyut Neupane",
-    tagline: `A full-stack MERN, Web developer passionate about building engaging web applications and solving complex problems with code`,
-    jobTitle: "Full Stack Developer",
+    tagline: `A software & Web developer passionate about building engaging web applications and solving complex problems with code`,
+    jobTitle: "Software Developer",
     location: "Nepal",
     yearsOfExperience: "3 years of experience in backend development (PHP) & 2 years in React",
     skills: [
