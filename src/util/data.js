@@ -218,7 +218,7 @@ export const Projects = [
         title: "Live Chat System",
         description: "Build In Php Core for my internship program which can manage creation of users lists and can have chat live and also manage to create groups.",
         GithubLink: "https://github.com/achyut66/chatSys",
-        LiveServerLink: "https://livechat.netlify.app/",
+        LiveServerLink: "https://lively.netlify.app/",
         dashImage:chat
     },
     {
