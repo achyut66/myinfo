@@ -15,6 +15,7 @@ import nomad from "../assets/projects/nomad.jpg";
 import plan from "../assets/projects/plan.jpg";
 import chat from "../assets/projects/chat.jpg";
 import dummyy from "../assets/projects/dummy.jpg";
+import irrigation from "../assets/projects/irrigation.jpeg";
 
 export const PROFILE_DATA = {
     name: "Achyut Neupane",
@@ -99,61 +100,6 @@ export const SKILLS = [
         ]
     },
 ]
-// export const SKILLS2 = [
-//     {
-//         id: "01",
-//         icon: IoLogoJavascript,
-//         title: "JavaScript",
-//         comment: "JavaScript simplify the development process and guarantee compatibility across browsers. JavaScript allows developers to create rich, interactive, and dynamic web apps ranging from simple scripts to complex web applications."
-
-//     },
-//     {
-//         id: "02",
-//         icon: IoLogoHtml5,
-//         title: "HTML",
-//         comment: "HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well structured and accessible."
-//     },
-//     {
-//         id: "03",
-//         icon: IoLogoReact,
-//         title: "React JS",
-//         comment: "I'm deeply passionate about React.js and have been using it extensively. I've built few projects in React JS"
-//     },
-//     {
-//         id: "04",
-//         icon: RiTailwindCssFill,
-//         title: "Tailwind CSS",
-//         comment: "Tailwind CSS has revolutionized the way I approach front-end styling. Its utility first approach allow me to rapidly build responsive and beautifully designed interfaces without writing custom CSS."
-//     },
-//     {
-//         id: "05",
-//         icon: FaBootstrap,
-//         title: "Bootstrap",
-//         comment: "Bootstrap offers a rich library of pre-designed user interface components, such as navigation bars, buttons, forms, modals, and more. These components come with well-defined styles and classes, making it effortless to integrate them into my web projects."
-//     },
-//     {
-//         id: "06",
-//         icon: FaCss3,
-//         title: "CSS3",
-//         comment: "CSS3 is a more advanced version of CSS and the successor of CSS2. CSS3 is used for the same thing as CSS, namely to style web pages and make them more attractive and user-friendly."
-//     },
-//     {
-//         id: "07",
-//         icon: FaNodeJs,
-//         title: "NodeJs",
-//         comment: "Node.js is a powerful JavaScript runtime built on Chrome's V8 engine. It is the successor to traditional JavaScript execution environments and is used to build fast and scalable server-side applications. Node.js allows developers to run JavaScript on the server, handle requests, and manage databases, making it an essential tool for modern web development."
-//     }, {
-//         id: "08",
-//         icon: SiMongodb,
-//         title: "Mongodb",
-//         comment: "MongoDB is a NoSQL database designed for flexibility and scalability, storing data in a document-oriented format. It’s ideal for handling large, unstructured datasets in modern web apps."
-//     }, {
-//         id: "09",
-//         icon: SiExpress,
-//         title: "Express",
-//         comment: "Express.js is a lightweight framework for Node.js that simplifies building web applications and APIs by handling routing, middleware, and requests efficiently."
-//     },
-// ];
 
 export const Work_Experience = [
     {
@@ -248,6 +194,13 @@ export const Projects = [
         GithubLink: "https://github.com/FromWorkProjects/Sinchai",
         LiveServerLink: "https://irrigation.netlify.app/",
         dashImage:dummyy
+    },
+    {
+        title: "Safe Drinking Water Web Application",
+        description: "Web Application which will provide safe drinking water to the users by monitoring the quality of water and also provide the information about the water quality. (Next.js,TailwindCSS,MySql,Laravel)",
+        GithubLink: "#",
+        LiveServerLink: "https://jwalamukhi.rwashmb.com",
+        dashImage:irrigation
     },
     {
         title: "School Management System",

@@ -9,7 +9,7 @@ const Aboutme = () => {
       className="p-5 sm:p-10 bg-slate-950 max-w-screen-xl m-auto"
     >
       <h2 className="py-5 text-5xl font-bold text-[#0f9df8] text-center">
-        About me
+        About me 
       </h2>
       <div className="flex justify-between flex-col md:flex-row my-7 gap-8">
         <div className="md:w-[30%]">
