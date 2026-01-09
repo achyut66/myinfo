@@ -78,7 +78,7 @@ const navbar = () => {
                   : "menu-item"
               }
             >
-              Contect Me
+              Contact Me
             </a>
           </li>
         </ul>
