@@ -25,7 +25,7 @@ const herosection = () => {
         </button>{" "}
         <button
           onClick={() => {
-            (window.location.href = Resume), Resume.download();
+            ((window.location.href = Resume), Resume.download());
           }}
           className=" ml-3 my-[10px] px-[15px] py-[8px] rounded-md border border-[#0f9df8] hover:bg-[#0f9df8]"
         >
