@@ -154,7 +154,7 @@ export const Projects = [
     description:
       "This full-stack e-commerce platform is built using the React and Php-Laravel (React.js, Laravel,Vite,SSR).",
     GithubLink: "https://github.com/achyut66/holytune_craft",
-    LiveServerLink: "https://holytunecraft.com/",
+    LiveServerLink: "https://holytunecrafts.com/",
     dashImage: holytune,
   },
   {
