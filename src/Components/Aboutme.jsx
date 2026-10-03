@@ -1,7 +1,7 @@
 import React from "react";
 import { ABOUT_ME_DATA } from "../util/data";
 // import Aboutmephoto from "../assets/aboutpic.webp";
-
+// console.log(ABOUT_ME_DATA);
 const Aboutme = () => {
   return (
     <section

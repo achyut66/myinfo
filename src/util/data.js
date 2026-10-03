@@ -39,7 +39,7 @@ export const PROFILE_DATA = {
     "MariaDB",
   ],
   email: "ayt.neupane@gmail.com",
-  phone: "+977-9861023479",
+  phone: "+977-9861023479 | +358 415813545",
   website: "https://achutneupane.com.np",
 };
 
