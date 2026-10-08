@@ -19,7 +19,7 @@ export const PROFILE_DATA = {
   jobTitle: "Software Developer",
   location: "Nepal",
   yearsOfExperience:
-    "3 years of experience in backend development (PHP) & 2 years in React",
+    "5 years of experience in backend development (PHP) & 3 years in React",
   skills: [
     "Php (Codeigniter/Laravel)",
     "MySql",
